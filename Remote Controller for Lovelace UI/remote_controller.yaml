@@ -1,0 +1,392 @@
+type: vertical-stack
+cards:
+  - type: 'custom:button-card'
+    color_type: card
+    color: 'rgb(99, 99, 99)'
+    name: LG Tv
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: blank-card
+      - type: 'custom:button-card'
+        color_type: blank-card
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(323, 25, 97)'
+        icon: 'mdi:power'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_on
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:flower'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_energysaving
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:audio-video'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_avmode
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:application-import'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_input
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:radio'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_radio
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-1-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_1
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-2-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_2
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-3-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_3
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-4-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_4
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-5-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_5
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-6-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_6
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-7-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_7
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-8-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_8
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-9-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_9
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:file-document-box-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_list
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:numeric-0-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_0
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:ray-end-arrow'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_qview
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(123, 255, 97)'
+        icon: 'mdi:volume-plus'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_volp
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(323, 25, 97)'
+        icon: 'mdi:arrow-up-bold-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_fel
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(123, 255, 97)'
+        icon: 'mdi:arrow-up-bold'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_progp
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(323, 25, 97)'
+        icon: 'mdi:arrow-left-bold-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_bal
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(223, 25, 97)'
+        icon: 'mdi:hand-okay'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_ok
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(323, 25, 97)'
+        icon: 'mdi:arrow-right-bold-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_jobb
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(123, 255, 97)'
+        icon: 'mdi:volume-minus'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_volm
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(323, 25, 97)'
+        icon: 'mdi:arrow-down-bold-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_le
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(123, 255, 97)'
+        icon: 'mdi:arrow-down-bold'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_progm
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:television-guide'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_guide
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:medium'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_menu
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:keyboard-return'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_vissza
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:information-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_info
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:eye-settings-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_qmenu
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:exit-run'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_exit
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:card-text-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_text
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:format-text'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_textopt
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:subtitles-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_subtitle
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:stop'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_stop
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:play'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_play
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:pause'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_pause
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:rewind'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_rewind
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:video-input-hdmi'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_simplink
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(99, 99, 99)'
+        icon: 'mdi:fast-forward'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_forward
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:heart-circle-outline'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_fav
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:volume-mute'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_nemit
+      - type: 'custom:button-card'
+        color_type: card
+        color: 'rgb(723, 111, 99)'
+        icon: 'mdi:aspect-ratio'
+        size: 25%
+        tap_action:
+          action: call-service
+          service: script.lgtv_ratio
